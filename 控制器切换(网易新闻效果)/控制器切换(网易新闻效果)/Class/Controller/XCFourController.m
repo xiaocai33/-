@@ -11,7 +11,7 @@
 @implementation XCFourController
 - (void)viewDidLoad{
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor grayColor];
+    self.view.backgroundColor = [UIColor purpleColor];
     UILabel *label = [[UILabel alloc] init];
     label.text = @"FourViewController";
     label.center = self.view.center;
