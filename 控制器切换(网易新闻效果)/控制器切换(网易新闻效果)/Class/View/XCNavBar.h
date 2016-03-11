@@ -13,9 +13,15 @@ typedef enum{
     XCNavBarButtonTypeThree,
     XCNavBarButtonTypeFour
 } XCNavBarButtonType;
+//代理实现
+@class XCNavBar;
+@protocol XCNavBarDelegate <NSObject>
+@optional//可选的
+- (void)navBar:(XCNavBar *)navBar didSelectedButton:(XCNavBarButtonType)buttonType;
 
+@end
 @interface XCNavBar : UIView
 
-
+@property (nonatomic, weak) id<XCNavBarDelegate> delegate;
 
 @end

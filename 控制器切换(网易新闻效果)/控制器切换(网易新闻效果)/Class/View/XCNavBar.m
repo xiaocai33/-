@@ -49,6 +49,9 @@
     self.selectedBtn.enabled = YES;
     btn.enabled = NO;
     self.selectedBtn = btn;
+    if ([self.delegate respondsToSelector:@selector(navBar:didSelectedButton:)]) {
+        [self.delegate navBar:self didSelectedButton:btn.tag];
+    }
     
 }
 //计算子控件的位置
