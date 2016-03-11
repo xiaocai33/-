@@ -14,7 +14,7 @@
     self.view.backgroundColor = [UIColor blueColor];
     UILabel *label = [[UILabel alloc] init];
     label.text = @"ThreeViewController";
-    label.center = self.view.center;
+    label.frame = CGRectMake(140, 200, 200, 100);
     [self.view addSubview:label];
 }
 

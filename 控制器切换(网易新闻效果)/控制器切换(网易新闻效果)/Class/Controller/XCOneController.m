@@ -14,7 +14,7 @@
     self.view.backgroundColor = [UIColor orangeColor];
     UILabel *label = [[UILabel alloc] init];
     label.text = @"OneViewController";
-    label.center = self.view.center;
+    label.frame = CGRectMake(140, 200, 200, 100);
     [self.view addSubview:label];
 }
 
