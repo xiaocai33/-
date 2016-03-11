@@ -18,6 +18,7 @@
 		33739B0E1C930529001CDD75 /* XCTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33739B0D1C930529001CDD75 /* XCTwoViewController.m */; };
 		33739B111C93053B001CDD75 /* XCThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33739B101C93053B001CDD75 /* XCThreeController.m */; };
 		33739B141C930549001CDD75 /* XCFourController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33739B131C930549001CDD75 /* XCFourController.m */; };
+		33739B181C9307A4001CDD75 /* XCNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33739B171C9307A4001CDD75 /* XCNavBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		33739B101C93053B001CDD75 /* XCThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCThreeController.m; sourceTree = "<group>"; };
 		33739B121C930549001CDD75 /* XCFourController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFourController.h; sourceTree = "<group>"; };
 		33739B131C930549001CDD75 /* XCFourController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFourController.m; sourceTree = "<group>"; };
+		33739B161C9307A4001CDD75 /* XCNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNavBar.h; sourceTree = "<group>"; };
+		33739B171C9307A4001CDD75 /* XCNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNavBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,7 @@
 		33739AFE1C930464001CDD75 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				33739B151C93078B001CDD75 /* View */,
 				33739AFF1C930464001CDD75 /* Controller */,
 				33739B001C930464001CDD75 /* Other */,
 			);
@@ -179,6 +183,15 @@
 				33739B031C930464001CDD75 /* main.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		33739B151C93078B001CDD75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33739B161C9307A4001CDD75 /* XCNavBar.h */,
+				33739B171C9307A4001CDD75 /* XCNavBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +325,7 @@
 			files = (
 				33739B081C930506001CDD75 /* XCMainController.m in Sources */,
 				33739B0B1C930519001CDD75 /* XCOneController.m in Sources */,
+				33739B181C9307A4001CDD75 /* XCNavBar.m in Sources */,
 				33739B051C930464001CDD75 /* main.m in Sources */,
 				33739B0E1C930529001CDD75 /* XCTwoViewController.m in Sources */,
 				33739B041C930464001CDD75 /* AppDelegate.m in Sources */,
