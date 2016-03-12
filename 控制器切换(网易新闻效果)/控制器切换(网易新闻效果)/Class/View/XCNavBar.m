@@ -17,7 +17,7 @@
 
 //只加载一次
 + (void)initialize{
-    XCNavBar *navBar = [[XCNavBar alloc] init];
+    //XCNavBar *navBar = [[XCNavBar alloc] init];
     //navBar.backgroundColor = [UIColor colorWithRed:0.7 green:0.7 blue:0.7 alpha:0.9];
 }
 
