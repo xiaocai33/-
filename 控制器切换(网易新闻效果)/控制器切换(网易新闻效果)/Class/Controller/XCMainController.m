@@ -38,11 +38,12 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor colorWithRed:0.8 green:0.8 blue:0.8 alpha:0.7];
+    //self.view.backgroundColor = [UIColor colorWithRed:0.8 green:0.8 blue:0.8 alpha:0.7];
     //设置导航栏题目
     self.navigationItem.title = @"主控制器";
     //添加导航条
     XCNavBar *navBar = [[XCNavBar alloc] init];
+    navBar.backgroundColor = [UIColor whiteColor];
     navBar.delegate = self;
     navBar.frame = CGRectMake(0, navigationH, viewW, navBarH);
     [self.view addSubview:navBar];
